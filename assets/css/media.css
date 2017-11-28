@@ -1,0 +1,45 @@
+@media (min-width: 535px) and (max-width: 880px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	.banner-img{
+		background-size: 1000px;
+		padding-top: 10em;
+	}
+	header{
+		padding: 5px 10px;
+	}
+}
+@media (min-width: 200px) and (max-width: 534px) {
+	[class*="col-"]{
+		width: 100%;
+	}
+	.banner-img{
+		background-size: 1000px;
+
+		padding-top: 6em;
+	}
+	.text-container{
+		padding: 1em;
+	}
+	.img-container{
+		padding: 1em;
+	}
+	header{
+		padding: 5px 10px;
+	}
+	nav ul{
+		display: none;
+	}
+}
+@media (min-width:200px) and (max-width: 349px){
+	.banner-img{
+		padding-top: 8em;
+	}
+	.banner-img h1{
+		font-size: 4.5em;
+	}
+	.banner-img h2{
+		font-size: 2em;
+	}
+}
